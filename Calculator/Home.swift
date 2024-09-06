@@ -11,6 +11,8 @@ struct Home: View {
     @State private var value: String = ""
     @State private var num: Int = 0
     @State private var result: Int = 0
+    @State private var a1: Int = 0
+    @State private var a2: Int = 0
     var body: some View {
         VStack{
             HStack{
@@ -75,12 +77,14 @@ struct Home: View {
                 Button(action: {
                     value = "7"
                     num = 7
+                    a1 = 1
                 }) {
                     Image("seven").resizable().frame(width: 60, height: 60)
                 }
                 Button(action: {
                     value = "8"
                     num = 8
+                    a2 = 2
                 }) {
                     Image("eight").resizable().frame(width: 60, height: 60)
                 }
