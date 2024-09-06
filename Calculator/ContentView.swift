@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Calculator
 //
-//  Created by Md Khorshed Alam on 5/9/24.
+//  Created by Masrafi Anam on 5/9/24.
 //
 
 import SwiftUI
@@ -19,6 +19,6 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}
